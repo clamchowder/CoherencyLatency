@@ -22,6 +22,9 @@ Run with
 ## Linux/Android+Termux, aarch64
 `gcc -O3 MemoryLatency.c MemoryLatency_arm.s -o MemoryLatency`
 
+## Linux, riscv64
+`gcc -O3 MemoryLatency.c MemoryLatency_riscv.s -o MemoryLatency`
+
 ## VS version
 Open solution and build. This is only around to hit large pages on Windows. 
 
